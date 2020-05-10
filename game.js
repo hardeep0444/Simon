@@ -53,9 +53,9 @@ function checkAnswer(currentLevel)
     $("body").removeClass("game-over");
   },200);
 
-  if(level<=2)
+  if(level<=5)
   $("#level-title").html("Game Over, You reached till Level  "+level+"<br>"+"<br>"+"You have a Poor Memory 🥺"+"<br>"+"<br>"+"Press Any Key to Restart");
-  else if(level<=4)
+  else if(level<=10)
   $("#level-title").html("Game Over, You reached till Level  "+level+"<br>"+"<br>"+"You can do better🙂"+"<br>"+"<br>"+"Press Any Key to Restart");
   else
   $("#level-title").html("Game Over, You reached till Level  "+level+"<br>"+"<br>"+"You are Brilliant😎"+"<br>"+"<br>"+"Press Any Key to Restart");
